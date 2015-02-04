@@ -1,8 +1,10 @@
-Course Analysis Tool                    ( https://developers.google.com/apps-script/ )
+Course Analysis Tool                     ( https://developers.google.com/apps-script/ )
 ---------------------
 The course analysis tool is a macros for google spreadsheet that makes Canvas API calls
 using the credentials provided on a specific credential sheet.
 
+Screencast: https://vimeo.com/115997293
+                                         
 
 
 Canvas                                   ( http://www.instructure.com/ )

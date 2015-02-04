@@ -1315,7 +1315,6 @@ function getFiles()
     for( var file in files )
     {
       files[ file ][ 3 ] = folders_sheet.getRange( 'A' + i ).getValue();        // Insert folder path
-      files[ file ][ 4 ] = files[ file ][ 4 ] / Math.pow( 2, 10 );              // Convert file size to kilobytes
       ff.push( files[ file ] );
     }
     
@@ -1327,9 +1326,7 @@ function getFiles()
   for( var item in allFiles )
   {
     var found = 0;
-    var orphanFile = allFiles[ item ];    
-    
-    orphanFile[ 4 ] = orphanFile[ 4 ] / Math.pow( 2, 10 );                     // Convert file size to kilobytes
+    var orphanFile = allFiles[ item ];                        
     
     for( var filed in ff )
       if( orphanFile[ 4 ] == ff[ filed ][ 4 ] )                                // If we find the same file size in allFiles as ff then the files must be the same
@@ -1580,7 +1577,10 @@ function formatCells( data, sheet, titles )
           
         // Files
         if( title == "Size (KB)" )
-          formats[ j ][ k ] == '#,##0';
+        {
+          data[ j - 1 ][ k ] = data[ j - 1 ][ k ] / Math.pow( 2, 10 );              // Convert file size to kilobytes
+          formats[ j ][ k ] = '#,##0';
+        }
        
        
        // Dates  

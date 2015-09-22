@@ -1,6 +1,6 @@
-#######################################
-#  This is the .gitignore for google  #
-#######################################
+##############################################
+#  This is the .gitignore for googleGogglez  #
+##############################################
 #
 #Use this git command if you already started tracking the file
 #git rm --cached <filename>
@@ -10,4 +10,4 @@
 
 # Temporary Files #
 ###################
-/~*
+~*

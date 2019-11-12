@@ -1,5 +1,13 @@
 # [Gmail](https://gmail.google.com)
 
+## Todo
+* notate search patterns
+
+## Setup
+1) add delegate
+1) create filters
+
+
 ## Settings
 ### [delegate](https://support.google.com/mail/answer/138350?hl=en)
 You can grant other accounts access to your Gmail account by adding a delegate. This delegate can read, send and delete messages for you from their account.

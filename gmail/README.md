@@ -9,6 +9,6 @@ You can grant other accounts access to your Gmail account by adding a delegate. 
 ### [filter](https://support.google.com/mail/answer/6579?hl=en)
 classify mail by subject, body, sender, etc and impose an action.
 
-* Settings => Filters and Block Addresses => Create a new filter
+* Settings => Filters and Block Addresses => Create a new filter => `From: *@domain`
    * Skip the Inbox (Archive It)
    * Apply the label: $LABEL

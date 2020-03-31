@@ -7,6 +7,7 @@
 
 ## modules
 * [gsuite](gsuite) => google software marketplace
+* [gsheets](gsheets) => google spreadsheets and google apps script
 * [gmail](gmail) => email provider
 * [calendar](calendar) => calendar service
 
